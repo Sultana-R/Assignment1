@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 5px;
+    padding: 0;
+    background-color: white;
+
+    
+    header {
+        background-color:rgb(156, 156, 210);
+        padding: 10px;
+      }
+  
+      nav {
+        display: flex;
+        justify-content:end;
+      }
+  
+      nav a {
+      
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        margin: 0 10px;
+      }
+  
+      nav a:hover {
+        background-color: #a476c8;
+    
+      }
+  .banner {
+    margin-top: 200px;
+    background-color: #0d9bf3;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+  }
+  .card-container {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 900px; /* Optional: Set a maximum width for the card container */
+    margin-top: 20px;
+    margin-left: 300px;
+  }
+
+  .card {
+    width: 28%; /* Adjust the width as needed */
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .card-content {
+    padding: 20px;
+  }
+
+  .card h2 {
+    margin: 0;
+    color: #333;
+  }
+
+  .card p {
+    margin-top: 8px;
+    color: #666;
+  }
+  #resultCard {
+    display: none;
+    width: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+  }
